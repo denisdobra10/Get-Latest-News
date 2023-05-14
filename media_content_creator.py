@@ -38,7 +38,6 @@ class MediaContentCreator:
     def set_xpath_to_date(self, xpath):
             self.news_date_xpath = xpath
 
-    
 
     def get_latest_news(self):  # this function will return an array of the latest news available
         html_content = get_html_content(self.url)
